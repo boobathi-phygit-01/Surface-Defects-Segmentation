@@ -46,10 +46,8 @@ The model was trained on the surface defects dataset:
 ## Installation
 
 ```bash
-pip install opencv-python numpy ai-edge-litert
+pip install opencv-python numpy`tflite-runtime` 
 ```
-
-`tflite-runtime` or full `tensorflow` also work as the interpreter backend.
 
 ## Usage
 
