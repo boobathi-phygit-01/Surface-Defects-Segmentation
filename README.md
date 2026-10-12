@@ -46,7 +46,7 @@ The model was trained on the surface defects dataset:
 ## Installation
 
 ```bash
-pip install opencv-python numpy`tflite-runtime` 
+pip install opencv-python numpy tflite-runtime 
 ```
 
 ## Usage
