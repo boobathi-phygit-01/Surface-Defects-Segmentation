@@ -9,9 +9,9 @@ Model I/O:
 Install:  pip install opencv-python numpy ai-edge-litert
           (or tflite-runtime, or full tensorflow)
 
-Run:      python webcam_infer.py --model best_saved_model/best_full_integer_quant.tflite
-NPU:      python webcam_infer.py --npu                       # uses /usr/lib/libvx_delegate.so
-          python webcam_infer.py --delegate /path/to/other_delegate.so
+Run:      python main.py --model best_saved_model/best_full_integer_quant.tflite
+NPU:      python main.py --npu                       # uses /usr/lib/libvx_delegate.so
+          python main.py --delegate /path/to/other_delegate.so
 Keys:     q / ESC = quit,  m = toggle masks
 """
 import argparse
